@@ -5,7 +5,7 @@ public class Marketer {
     public static void coverage(){
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -25,7 +25,7 @@ public class Marketer {
     public static void socialMedia() {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -44,7 +44,7 @@ public class Marketer {
         public static void budjet() {
             String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
             String username = "postgres";
-            String password = "49577982";
+            String password = "password";
             try {
                 connection = DriverManager.getConnection(jdbcURL, username, password);
                 Statement statement = connection.createStatement();
@@ -63,7 +63,7 @@ public class Marketer {
     public static void holeBudjet() {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -83,7 +83,7 @@ public class Marketer {
     public static void spend(String name, int sum) {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -101,7 +101,7 @@ public class Marketer {
     public static void totalBudjet(String name) {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -123,7 +123,7 @@ public class Marketer {
     public static void totalSalary() {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -140,7 +140,7 @@ public class Marketer {
     public static void raiseSalary(String name, int sum) {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -159,7 +159,7 @@ public class Marketer {
     public static void reduceSalary(String name, int sum) {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
