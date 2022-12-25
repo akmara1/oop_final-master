@@ -5,7 +5,7 @@ public class Manager {
     public static void workersList() {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -23,7 +23,7 @@ public class Manager {
     public static void addTask(String name, String task) {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -45,7 +45,7 @@ public class Manager {
     public static void taskShow(){
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -64,7 +64,7 @@ public class Manager {
     public static void coverage(){
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
