@@ -5,7 +5,7 @@ public class Worker {
     public static void myTasks(String name){
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -25,7 +25,7 @@ public class Worker {
     public static void finished(String name) {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -45,7 +45,7 @@ public class Worker {
     public static void inProgress(String name) {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -65,7 +65,7 @@ public class Worker {
     public static void salary(String name) {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
