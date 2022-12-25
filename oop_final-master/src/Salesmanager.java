@@ -5,7 +5,7 @@ public class Salesmanager {
     public static void allClients() {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -23,7 +23,7 @@ public class Salesmanager {
     public static void search(String name) {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -42,7 +42,7 @@ public class Salesmanager {
     public static void empty() {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -60,7 +60,7 @@ public class Salesmanager {
     public static void sold() {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             connection = DriverManager.getConnection(jdbcURL, username, password);
             Statement statement = connection.createStatement();
@@ -78,7 +78,7 @@ public class Salesmanager {
     public static void max() {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             int count = 0;
             connection = DriverManager.getConnection(jdbcURL, username, password);
@@ -96,7 +96,7 @@ public class Salesmanager {
     public static void min() {
         String jdbcURL = "jdbc:postgresql://localhost:5432/ra";
         String username = "postgres";
-        String password = "49577982";
+        String password = "password";
         try {
             int count = 0;
             connection = DriverManager.getConnection(jdbcURL, username, password);
